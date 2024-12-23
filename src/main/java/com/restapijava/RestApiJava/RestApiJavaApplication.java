@@ -8,6 +8,7 @@ public class RestApiJavaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RestApiJavaApplication.class, args);
+		System.out.println("Server is Running");
 	}
 
 }
