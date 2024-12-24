@@ -22,7 +22,7 @@ public class UserController{
 
     private UserService userService;
 
-    @PostMapping
+    @PostMapping("/register")
     public ApiResponse<User>createUser(@RequestBody(required=false) User user){
         // if request body is empty, return bad request
         if(user == null){
