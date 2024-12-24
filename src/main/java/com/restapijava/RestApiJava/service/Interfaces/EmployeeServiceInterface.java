@@ -1,4 +1,4 @@
-package com.restapijava.RestApiJava.service;
+package com.restapijava.RestApiJava.service.Interfaces;
 
 import com.restapijava.RestApiJava.model.Employee;
 

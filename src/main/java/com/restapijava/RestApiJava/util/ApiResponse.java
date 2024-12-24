@@ -18,7 +18,7 @@ public class ApiResponse<T>{
     public void setSuccess(boolean success) {
         this.success = success;
     }
-    public String getMessge(){
+    public String getMessage(){
         return message;
     }
 

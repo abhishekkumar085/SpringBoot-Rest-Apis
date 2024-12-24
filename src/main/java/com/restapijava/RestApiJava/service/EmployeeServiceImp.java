@@ -2,10 +2,13 @@ package com.restapijava.RestApiJava.service;
 
 import com.restapijava.RestApiJava.model.Employee;
 import com.restapijava.RestApiJava.repository.EmployeeRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
+import com.restapijava.RestApiJava.service.Interfaces.EmployeeServiceInterface;
 // import java.util.Optional;
 
 @Service
